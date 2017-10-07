@@ -40,7 +40,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func performOperation(_ sender: UIButton) {
-        
+        print("Hello World")
         userIsInTheMiddleOfTyping = false
         if let mathemeticalSymbol = sender.currentTitle {
             
